@@ -5,7 +5,7 @@ function Item({ name, category }) {
   const [isInCart, setIsInCart] = useState(false);
 
   const handleCartStatus = () => {
-    setIsInCart((prevState) => !prevState)
+    setIsInCart((currentVal) => !currentVal)
   }
 
   return (
